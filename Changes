@@ -1,0 +1,6 @@
+Revision history for Perl extension Net::Rakuten.
+
+0.01  Thu Jul 30 21:55:59 2009
+	- original version; created by h2xs 1.23 with options
+		-XA -n Net::Rakuten
+
