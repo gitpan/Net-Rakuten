@@ -3,9 +3,7 @@
 
 #########################
 
-# change 'tests => 1' to 'tests => last_test_to_print';
-
-use Test::More tests => 6;
+use Test::More tests => 28;
 BEGIN { use_ok('Net::Rakuten') };
 
 #########################
@@ -16,16 +14,36 @@ my $r = Net::Rakuten->new(
 );
 
 for my $method ( qw( 
-    search
-    item_search
-    genre_search
-    item_code_search
-    catalog_search
+    simplehotelsearch
+    booksgamesearch
+    hoteldetailsearch
+    gethotelchainlist
+    bookssoftwaresearch
+    bookscdsearch
+    vacanthotelsearch
+    booksmagazinesearch
+    itemcodesearch
+    bookstotalsearch
+    booksforeignbooksearch
+    genresearch
+    auctionitemsearch
+    dynamicad
+    cdsearch
+    booksearch
+    getareaclass
+    hotelranking
+    catalogsearch
+    booksdvdsearch
+    keywordhotelsearch
+    itemranking
+    auctionitemcodesearch
+    dvdsearch
+    itemsearch
+    booksbooksearch
+    booksgenresearch
 ) ) {
 
     can_ok( $r, $method );
 }
 
-# Insert your test code below, the Test::More module is use()ed here so read
-# its man page ( perldoc Test::More ) for help writing this test script.
-
+1;

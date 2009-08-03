@@ -1,5 +1,10 @@
 Revision history for Perl extension Net::Rakuten.
 
+0.02  Sat Aug 01 03:31:44 2009
+    - Added the full collection of functions & POD
+    - Renamed to Net::Rakuten
+    - Split Rakuten.pm and Rakuten.pod
+
 0.01  Thu Jul 30 21:55:59 2009
 	- original version; created by h2xs 1.23 with options
 		-XA -n Net::Rakuten

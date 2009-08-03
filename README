@@ -1,5 +1,5 @@
-Net-Rakuten version 0.01
-========================
+Net-Rakuten version 0.02
+===============================
 
 This fills an empty niche for interfacing with the Rakuten
 webservice detailed here.
@@ -21,8 +21,8 @@ DEPENDENCIES
 This module requires these other modules and libraries:
 
 Carp
-LWP::UserAgent
 JSON
+LWP::UserAgent
 Unicode::Japanese
 
 COPYRIGHT AND LICENCE
